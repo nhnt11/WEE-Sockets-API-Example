@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Mozilla",
   "dependencies": {
-    "WEE-Sockets-API": "nhnt11/WEE-Sockets-API"
+    "WEE-Sockets-API": "nhnt11/WEE-Sockets-API#openwpm-bufferpack"
   },
   "devDependencies": {
     "eslint": "^5.0.1",

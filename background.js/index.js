@@ -6,6 +6,6 @@ import * as sockets from "WEE-Sockets-API";
   let sendingSocket = new sockets.SendingSocket();
   console.log("connecting to localhost port:", socket.port);
   await sendingSocket.connect("localhost", socket.port);
-  sendingSocket.send("HELLO WORLD!!!");
+  sendingSocket.send("HELLO WORLD!!!", 'n');
   sendingSocket.close();
 })();
