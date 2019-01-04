@@ -1,3 +1,4 @@
 node_modules
+src/*.js
 src/privileged
-src/socket.js
+dist

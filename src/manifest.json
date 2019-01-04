@@ -4,7 +4,7 @@
   "version": "1.0",
   "description": "CHANGE ME",
   "background": {
-    "scripts": ["socket.js", "background.js"]
+    "scripts": ["background.js"]
   },
   "applications": {
     "gecko": {

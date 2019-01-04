@@ -13,7 +13,9 @@
     "eslint-plugin-mozilla": "^0.14.0",
     "eslint-plugin-no-unsanitized": "^3.0.2",
     "npm-run-all": "^4.1.1",
-    "web-ext": "^2.7.0"
+    "web-ext": "^2.7.0",
+    "webpack": "^4.1.0",
+    "webpack-cli": "^3.1.2"
   },
   "engines": {
     "node": ">=8.11.1"
@@ -31,7 +33,7 @@
     "url": "https://github.com/nhnt11/WEE-Sockets-API-Example"
   },
   "scripts": {
-    "prebuild": "cp -r node_modules/WEE-Sockets-API/lib/* src/",
+    "prebuild": "cp -r node_modules/WEE-Sockets-API/lib/privileged src/ && webpack",
     "build": "web-ext build",
     "eslint": "eslint . --ext jsm,js,json",
     "lint": "npm-run-all lint:*",
